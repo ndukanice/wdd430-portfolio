@@ -28,7 +28,7 @@ export default function Home() {
     <div>
       <section className="py-8 text-center">
         <h1 className="mb-4 text-4xl font-bold">My Portfolio</h1>
-        <p className="text-lg text-gray-700">
+        <p className="text-lg text-gray-700 dark:text-gray-300">
           I&apos;m a full-stack developer learning Next.js and React. Here are
           some of my recent projects.
         </p>

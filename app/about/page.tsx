@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div>
       <h1 className="mb-4 text-3xl font-bold">About Me</h1>
-      <p className="mb-8 text-lg text-gray-700">
+      <p className="mb-8 text-lg text-gray-700 dark:text-gray-300">
         I am a web development student learning to build modern, full-stack, AI,
         applications with Next.js, React and TypeScript. This portfolio is my
         first Next.js project for WDD 430.
