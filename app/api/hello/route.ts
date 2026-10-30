@@ -1,5 +1,3 @@
-import { NextResponse } from "next/server";
-
 export async function GET() {
-  return NextResponse.json({ message: "Hello from the portfolio API!" });
+  return Response.json({ message: "Hello from Next.js API!" });
 }

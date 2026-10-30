@@ -1,10 +1,13 @@
-export default function Footer() {
+export default async function Footer() {
+  "use cache";
   return (
-    <footer className="border-t border-gray-200 dark:border-gray-800">
-      <div className="mx-auto max-w-4xl px-6 py-4 text-center text-sm text-gray-500">
-        &copy; My Portfolio. Built with Next.js.
+    <footer className="mt-12 bg-gray-800 py-4 text-white">
+      <div className="container mx-auto px-4 text-center">
+        <p>
+          Copyright &copy; {new Date().getFullYear()} | Emmanuel Eze| All rights
+          reserved
+        </p>
       </div>
     </footer>
   );
 }
-
